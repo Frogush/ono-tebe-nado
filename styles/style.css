@@ -1,316 +1,320 @@
 .content {
-    width: 100%;
-    margin: 0 auto;
-  }
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* Шапка */
 
 .header {
-    display: grid;
-    align-items: center;
-    padding: 92px 50px 83px;
-    grid-template-columns: 2fr 1fr 2fr;
+  display: grid;
+  align-items: center;
+  padding: 92px 50px 83px;
+  grid-template-columns: 2fr 1fr 2fr;
 }
 
 .header-nav-bar {
-    display: flex;
-    text-align: left;
-    gap: 32px;
+  display: flex;
+  text-align: left;
+  gap: 32px;
 }
 
 .header-links {
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .header-link {
-    font-size: 18px;
-    text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .header-link:hover {
-    color: white;
-    background-color: black;
-  }
+  color: white;
+  background-color: black;
+}
 
 .header-link-no-underline {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header-link-underline {
-    list-style-type: circle;
-    text-decoration: underline;
+  list-style-type: circle;
+  text-decoration: underline;
 }
 
 .header-logo {
-    width: 148px;
-    justify-self: center;
+  width: 148px;
+  justify-self: center;
 }
 
 .contacts {
-    text-align: left;
-    justify-self: flex-end;
+  text-align: left;
+  justify-self: flex-end;
 }
 
 .contact-link {
-    display: block;
-    line-height: 1.35;
-    font-size: 18px;
-    font-style: inherit;
-    text-underline-position: under;
+  display: block;
+  line-height: 1.35;
+  font-size: 18px;
+  font-style: inherit;
+  text-underline-position: under;
 }
 
 .contact-address {
-    line-height: 1.35;
-    font-size: 18px;
-    font-style: normal;
+  line-height: 1.35;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .contact-link:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 /* Jumbotron */
 
 .cover {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cover.jpg');
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay-cover {
-    display: grid;
-    height: 100%;
-    padding: 165px 50px 21px 50px;
-    grid-template-rows: 3fr 1.77fr;
+  display: grid;
+  height: 100%;
+  padding: 165px 50px 21px 50px;
+  grid-template-rows: 3fr 1.77fr;
 }
 
 .main-text {
-    display: grid;
-    height: 100%;
-    line-height: 1;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 30px;
-    font-size: 100px;
-    font-weight: bold;
-    grid-template-rows: 1.15fr 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  height: 100%;
+  line-height: 1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  font-size: 100px;
+  font-weight: bold;
+  grid-template-rows: 1.15fr 1fr 1fr;
+  gap: 20px;
 }
 
 .text-left {
-    line-height: 1.15;
+  line-height: 1.15;
 }
 
 .double-spacing {
-    letter-spacing: 60px;
+  letter-spacing: 60px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .remove-spacing {
-    letter-spacing: 0;
+  letter-spacing: 0;
 }
 
 .subline {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-top: 100px;
-    gap: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 100px;
+  gap: 82px;
 }
-  
+
 .subline-text {
-    line-height: 1.28;
-    color: white;
-    text-transform: uppercase;
-    word-spacing: 20px;
-    font-size: 22px;
+  line-height: 1.28;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  font-size: 22px;
 }
-  
+
 .subline-button {
-    line-height: 1;
-    padding: 14px 32px;
-    border: 1px white solid;
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 22px;
+  line-height: 1;
+  padding: 14px 32px;
+  border: 1px white solid;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 22px;
 }
-  
+
 .subline-button:hover {
-    color:black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 /* Лоты */
 
 .lots {
-    padding: 179px 25px 0px;
-  }
+  padding: 179px 25px 0px;
+}
 
 .lots-header {
-    line-height: 1;
-    margin-left: 39px;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
+  line-height: 1;
+  margin-left: 39px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .card-grid {
-    display: grid;
-    padding: 27px 0 30px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  padding: 27px 0 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    height: 100%;
-    padding: 51px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  height: 100%;
+  padding: 51px 40px 48px;
 }
 
 .card-header {
-    line-height: 1.2;
-    color: white;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration-line: underline;
+  line-height: 1.2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration-line: underline;
 }
-  
+
 .card-text {
-    line-height: 1.2;
-    color: white;
-    font-size: 20px;
+  line-height: 1.2;
+  color: white;
+  font-size: 20px;
 }
 
 .card-film {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-  
+
 .card-book {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-  
+
 .card-picture {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .lots-footer {
-    margin-left: 39px;
-    font-size: 20px;
-    text-decoration-line: underline;
-    text-underline-position: under;
+  margin-left: 39px;
+  font-size: 20px;
+  text-decoration-line: underline;
+  text-underline-position: under;
 }
 
 .lots-footer:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 /* Об аукционе */
 
 .about {
-    display: grid;
-    padding: 180px 24px;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 23px;
+  display: grid;
+  padding: 180px 24px;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 23px;
 }
 
 .about-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: #000000;
-    justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+  justify-self: center;
 }
-  
+
 .about-logo-image {
-    width: 148px;
+  width: 148px;
 }
 
 .about-header {
-    line-height: 1;
-    padding: 98px 0 102px;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
+  line-height: 1;
+  padding: 98px 0 102px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .about-text-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-text {
-    line-height: 24px;
-    font-size: 20px;
-    gap: 25px;
+  line-height: 24px;
+  font-size: 20px;
+  gap: 25px;
 }
 
 /* Подвал */
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px 88px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 88px;
 }
 
 .footer-nav-bar {
-    text-align: center;
-    gap: 32px;
+  text-align: center;
+  gap: 32px;
 }
 
 .footer-links {
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-    list-style-type: none;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  list-style-type: none;
 }
 
 .footer-link {
-    font-size: 18px;
-    text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .footer-link:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 .footer-link-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-social {
-    display: flex;
-    list-style: none;
-    gap: 48px;
+  display: flex;
+  list-style: none;
+  gap: 48px;
 }
 
 .footer-social-icon {
-    width: 48px;
+  width: 48px;
 }
